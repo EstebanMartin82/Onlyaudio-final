@@ -1,0 +1,223 @@
+@media (max-width:480px) {
+
+    // seccion bafles
+    .speaker {
+        display: flex;
+        flex: column;
+        .card-body {
+            height: auto;
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+        
+    .receiver {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        
+        .card-receiver {
+            margin-bottom: 0px; 
+        }
+        .img-custom {
+            min-height: 90vh; 
+        }
+        .card-body-receiver {
+            padding:0;
+            margin:0;
+            max-height: 50vh;
+        }
+    }
+    
+    // seccion ofertas
+    .ofer {
+        display: flex;
+        flex-direction: column;
+        .ofer-content {
+
+            p{
+                font-size: 16px;
+            }
+        }
+    }  
+
+    // seccion de contacto
+    .contact {
+        display:inline-block; 
+        min-height:110vh ; 
+        .top-left {
+            height: 45vh;
+            padding: 5px;
+            p{
+                font-size: 18px;
+            }
+        }
+        .bottom-right {
+            height: 45vh;
+            padding: 5px;
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:600px) {
+    
+    // seccion de contacto
+    .form-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            'content'
+            'form'
+            'form'
+            'map';
+    }
+
+    iframe {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    // seccion ofertas
+    .ofer {
+        grid-template-columns: repeat(2, 1fr);
+        align-self:center;
+        justify-items: center; 
+        width: 100%;
+        height: auto;
+    
+        .ofer-content {
+            justify-self:center;
+            width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                height: auto;
+                margin-bottom: auto;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 20px;
+            }
+            h4 {
+                text-align: center;
+                font-size: 16px;
+            }
+            
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+     // seccion bafles
+    .speaker {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .carousel-speaker {
+        height: 100%;
+        width: 550px;
+    }
+
+    // seccion de contacto
+    .encabezado-foto {
+        height: 100%;
+    }
+    
+    .contact {
+        height: 100vh; 
+        h3 {
+            font-size: 30px;
+            margin: 25px;
+            padding: 10px;
+        }
+        p {
+            font-size: 20px;
+            margin: 15px;
+            padding: 10px;
+        }
+    }
+}
+
+
+@media (max-width:1024px) {
+    
+    // seccion de contacto
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            'content'
+            'form'
+            'form'
+            'map';
+        place-items: center;
+        place-content: center;
+    }
+    .contact {
+        height: 90vh; 
+        h3 {
+            font-size: 30px;
+            margin: 25px;
+            padding: 10px;
+        }
+        p {
+            font-size: 20px;
+            margin: 15px;
+            padding: 10px;
+        }
+    }
+
+    // seccion ofertas
+    .ofer {
+        grid-template-columns: repeat(2, 1fr);
+        align-self:center;
+        justify-items: center; 
+        width: 100%;
+        height: auto;
+    
+        .ofer-content {
+            justify-self:center;
+            width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                height: auto;
+                margin-bottom: auto;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 20px;
+            }
+            h4 {
+                text-align: center;
+                font-size: 16px;
+            }
+            
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+}
+
+
+
+
+

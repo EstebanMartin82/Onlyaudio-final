@@ -1,0 +1,30 @@
+.cd {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+
+    .card-cd {
+        height: 80%;
+        width: 100%;
+        box-shadow: 5px 5px 5px 5px lightgray;
+        background-color: lightgray;
+        
+        .img-custom {
+            width: 100%;
+            height: 40vh;
+            object-fit: cover;
+        }   
+    
+        .card-body-cd {
+            text-align: justify;
+            h5 {
+                text-align: center;
+                padding: 10px;
+            }
+            p {
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    }
+}
